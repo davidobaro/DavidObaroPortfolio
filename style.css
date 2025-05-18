@@ -425,6 +425,7 @@ footer p {
   text-align: center;
 }
 
+/*MOdal overlay*/
 .modal-overlay {
   position: fixed;
   top: 0;
