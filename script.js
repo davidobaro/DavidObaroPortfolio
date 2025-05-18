@@ -6,11 +6,7 @@ function toggleMenu() {
 }
 
 const projectDescriptions = {
-  0: `Built an iOS kiosk app for university CECs to streamline visitor
-              check-ins. Developed the frontend in SwiftUI and helped build REST
-              APIs with Flask. Used PostgreSQL for data storage and deployed the
-              full stack on Heroku. Collaborated in a team setting, focusing on
-              clean UI and reliable backend integration.`,
+  0: `Designed and implemented a Python-based analysis tool to evaluate 200+ Pittsburgh neighborhoods using public health and safety data from the Western Pennsylvania Regional Data Center. Processed datasets on housing quality, arrest rates, and median age at death to engineer features and calculate composite scores. Automated data cleaning, normalization, and ranking using pandas and NumPy. Delivered visual insights and scoring logic to support data-driven decision-making for community evaluation.`,
   1: `Built an iOS kiosk app for university CECs to streamline visitor
               check-ins. Developed the frontend in SwiftUI and helped build REST
               APIs with Flask. Used PostgreSQL for data storage and deployed the
