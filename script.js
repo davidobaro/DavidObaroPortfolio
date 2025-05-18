@@ -1,0 +1,39 @@
+function toggleMenu() {
+  const menu = document.querySelector(".menu-links");
+  const icon = document.querySelector(".hamburger-icon");
+  menu.classList.toggle("open");
+  icon.classList.toggle("open");
+}
+
+const projectDescriptions = {
+  0: `Built an iOS kiosk app for university CECs to streamline visitor
+              check-ins. Developed the frontend in SwiftUI and helped build REST
+              APIs with Flask. Used PostgreSQL for data storage and deployed the
+              full stack on Heroku. Collaborated in a team setting, focusing on
+              clean UI and reliable backend integration.`,
+  1: `Built an iOS kiosk app for university CECs to streamline visitor
+              check-ins. Developed the frontend in SwiftUI and helped build REST
+              APIs with Flask. Used PostgreSQL for data storage and deployed the
+              full stack on Heroku. Collaborated in a team setting, focusing on
+              clean UI and reliable backend integration.`,
+  2: `Developed a classic Snake game in MIPS assembly using the MARS
+              simulator. Implemented real-time keyboard input, dynamic screen
+              rendering, and game logic entirely at the instruction level.
+              Demonstrated proficiency in low-level programming, memory
+              management, and system I/O operations.`,
+  3: `Developed a C program that hides and extracts secret messages in
+              .bmp image files using least significant bit (LSB) encoding.
+              Implemented custom file parsing, bitwise data manipulation, and
+              message recovery without altering the image’s appearance.
+              Showcases skills in low-level systems programming, file I/O, and
+              binary operations.`,
+};
+
+function openModal(index) {
+  document.getElementById("modal-text").innerText = projectDescriptions[index];
+  document.getElementById("project-modal").style.display = "flex";
+}
+
+function closeModal() {
+  document.getElementById("project-modal").style.display = "none";
+}
