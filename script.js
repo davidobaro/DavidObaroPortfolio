@@ -31,7 +31,8 @@ const projectDescriptions = {
   binary operations.`,
   4: `Collaborated with a partner to implement a sample rental system using Test Driven Development (TDD) principles and employing concepts from the SDLC.
 Developed and wrote unit tests for the classes using JUnit and Mockito, ensuring a 90% coverage for the codebase.`,
-  5: `----`,
+  5: `The Stock Portfolio Tracker is a full-stack web application designed to provide users with real-time and historical stock market insights. Built using Flask for the backend and Streamlit for the frontend, the app integrates both Finnhub and Yahoo Finance APIs to deliver comprehensive and reliable stock data across thousands of symbols. The application features interactive dashboards powered by Plotly, allowing users to explore price trends, trading volumes, and technical indicators for informed decision-making. It also includes robust error handling, secure API key management, and CI/CD pipelines for seamless deployment on Render (backend) and Streamlit Cloud (frontend).
+`,
   6: `----`,
   7: `----`,
   8: `----`,
