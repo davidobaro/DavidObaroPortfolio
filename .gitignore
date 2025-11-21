@@ -1,0 +1,23 @@
+# Node modules (usually large) - ignore entire folder
+node_modules/
+
+# Next.js build output
+.next/
+
+# Common OS / editor files
+.DS_Store
+/.vscode/
+
+# Ignore specific large binaries found in repo
+# Found: node_modules/@next/swc-darwin-arm64/next-swc.darwin-arm64.node (~120MB)
+node_modules/@next/swc-darwin-arm64/next-swc.darwin-arm64.node
+
+# Generic large binary patterns (optional - uncomment if you want)
+# *.zip
+# *.tar.gz
+# *.tgz
+# *.iso
+# *.mp4
+# *.mov
+# *.exe
+# *.dll
