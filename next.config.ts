@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
   // This silences the "inferred your workspace root" warning and helps
   // Vercel choose the correct project root during builds.
   turbopack: {
-    root: './',
+    root: "./",
   } as any,
 };
 
